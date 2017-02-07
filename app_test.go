@@ -15,3 +15,13 @@ func TestAddSquare(t *testing.T) {
 		t.Errorf("Unexpected Result:", c, "It should:", expectedResult)
 	}
 }
+
+func TestGetABC(t *testing.T) {
+	expectedResult := "ABC"
+
+	abc := GetABC()
+
+	if abc != expectedResult {
+		t.Errorf("Unexpected Result:", abc, "It should:", expectedResult)
+	}
+}
