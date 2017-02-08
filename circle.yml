@@ -18,5 +18,5 @@ dependencies:
     
 general:
   branches:
-    only:
-      - windy_test_build
+    ignore:
+      - staging
