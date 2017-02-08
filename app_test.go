@@ -10,7 +10,7 @@ func TestAddSquare(t *testing.T) {
 	c := AddSquare(a, b)
 
 	expectedResult := 13
-	
+
 	if c != expectedResult {
 		t.Errorf("Unexpected Result:", c, "It should:", expectedResult)
 	}
