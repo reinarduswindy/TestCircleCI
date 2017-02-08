@@ -7,11 +7,5 @@ machine:
     - elasticsearch
 
 dependencies:
-  branches:
-    override:
-      - go test -v ./...
-    
-general:
-  branches:
-    ignore:
-      - staging
+  override:
+    - if [ $CIRCLE_BRANCH = 'master']; then go test -v ./...; fi;
