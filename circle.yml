@@ -6,6 +6,8 @@ machine:
     - redis
     - elasticsearch
 
-dependencies:
-  override:
-    - if [ $CIRCLE_BRANCH = 'master' ]; then go test -v ./...; fi;
+general:
+  branches:
+    only:
+      - master
+      - staging
