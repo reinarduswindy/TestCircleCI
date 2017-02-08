@@ -9,5 +9,5 @@ func GetDEF() string {
 }
 
 func GetEFG() string {
-    return "EFF"
+    return "EFG"
 }
