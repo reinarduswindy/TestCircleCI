@@ -13,3 +13,13 @@ func TestGetCDE(t *testing.T) {
 		t.Errorf("Unexpected Result:", abc, "It should:", expectedResult)
 	}
 }
+
+func TestGetDEF(t *testing.T) {
+	expectedResult := "DEF"
+
+	abc := GetDEF()
+
+	if abc != expectedResult {
+		t.Errorf("Unexpected Result:", abc, "It should:", expectedResult)
+	}
+}
