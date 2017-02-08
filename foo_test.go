@@ -23,3 +23,13 @@ func TestGetDEF(t *testing.T) {
 		t.Errorf("Unexpected Result:", abc, "It should:", expectedResult)
 	}
 }
+
+func TestGetEFG(t *testing.T) {
+    expectedResult := "EFF"
+
+    abc := GetEFG()
+
+    if abc != expectedResult {
+        t.Errorf("Unexpected Result:", abc, "It should:", expectedResult)
+    }
+}

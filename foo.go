@@ -7,3 +7,7 @@ func GetCDE() string {
 func GetDEF() string {
 	return "DEF"
 }
+
+func GetEFG() string {
+    return "EFF"
+}
