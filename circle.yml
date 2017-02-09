@@ -11,7 +11,3 @@ general:
     only:
       - master
       - staging
-
-deployment:
-  release:
-    tag: "duplicate"
