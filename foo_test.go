@@ -25,7 +25,7 @@ func TestGetDEF(t *testing.T) {
 }
 
 func TestGetEFG(t *testing.T) {
-    expectedResult := "EFG"
+    expectedResult := "EFF"
 
     abc := GetEFG()
 
